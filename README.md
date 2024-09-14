@@ -10,7 +10,7 @@ Desenvolvido através de um projeto base durante o curso da Devmedia, implementa
 <br>
 
 <p align="center">
-  <img border="1px" alt="projeto devmedia" src=".github/preview.webp" width="100%">
+  <img border="1px" alt="projeto devmedia" src="./github/preview.webp" width="100%">
 </p>
 
 ## 🚀 Tecnologias
