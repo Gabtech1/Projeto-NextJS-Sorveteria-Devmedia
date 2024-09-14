@@ -8,64 +8,20 @@
     background-image: url(../../public/home.avif);
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.container h1{
+  }
+  
+  .container h1{
     display: flex;
     font-size: 6rem;
     text-transform: uppercase;
     color: #fff;
     text-shadow: 3px 5px 2px #474747;
-}
-
-@media (max-width: 1024px){
-    .container h1{
-        font-size: 4rem;
-    }
-}
-
-@media (max-width: 768px){
-    .container h1{
-        font-size: 2rem;
-    }
-}
-
-  .container h1 span:nth-child(1) {
-    animation: drop-letters 5s 0.1s infinite;
   }
   
-  .container h1 span:nth-child(2) {
-    animation: drop-letters 5s 0.2s infinite;
-  }
-  
-  .container h1 span:nth-child(3) {
-    animation: drop-letters 5s 0.3s infinite;
-  }
-  
-  .container h1 span:nth-child(4) {
-    animation: drop-letters 5s 0.4s infinite;
-  }
-  
-  .container h1 span:nth-child(5) {
-    animation: drop-letters 5s 0.5s infinite;
-  }
-  
-  .container h1 span:nth-child(6) {
-    animation: drop-letters 5s 0.6s infinite;
-  }
-  
-  .container h1 span:nth-child(7) {
-    animation: drop-letters 5s 0.7s infinite;
+  .letter{
+    animation: drop-letters 5s infinite;
   }
 
-  .container h1 span:nth-child(8) {
-    animation: drop-letters 5s 0.8s infinite;
-  }
-
-  .container h1 span:nth-child(9) {
-    animation: drop-letters 5s 0.9s infinite;
-  }
-  
   @keyframes drop-letters {
     0% {
       transform: translateY(0);
@@ -83,3 +39,15 @@
       transform: translateY(0);
     }
   }
+  
+  @media (max-width: 1024px){
+    .container h1{
+      font-size: 4rem;
+    }
+  }
+
+  @media (max-width: 768px){
+    .container h1{
+        font-size: 2rem;
+    }
+}

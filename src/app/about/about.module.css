@@ -9,10 +9,33 @@
 }
 
 .container h1{
+    display: flex;
     font-size: 6rem;
     color: #fff;
     text-shadow: 3px 5px 2px #474747;
 }
+
+.letter{
+    animation: drop-letters 5s infinite;
+}
+
+@keyframes drop-letters {
+    0% {
+      transform: translateY(0);
+    }
+    10% {
+      transform: translateY(0);
+    }
+    15% {
+      transform: translateY(-100%);
+    }
+    20% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 
 @media (max-width: 1024px){
     .container h1{
