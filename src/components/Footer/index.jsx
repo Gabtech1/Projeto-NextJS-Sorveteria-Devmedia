@@ -10,13 +10,13 @@ export default function Footer() {
                 <Image className={styles.logo} src={Logo} alt='Gelateria logo'/>
                 <div className={styles.item}>
                     <p>ENDEREÇO</p>
-                    <p>Av. Bernardino de Campos, 98</p>
+                    <p>Avenida Paraíso dos sorvetes, 77</p>
                     <p>São Paulo, SP 12345-678</p>
                 </div>
                 <div className={styles.item}>
                     <p>CONTATO</p>
                     <p>info@meusite.com</p>
-                    <p>Tel: (11) 3456-7890</p>
+                    <p>Tel: (11) 23456-7890</p>
                 </div>
                 <div className={styles.item}>
                     <p>HORÁRIOS</p>
