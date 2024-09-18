@@ -41,6 +41,7 @@
     font-size: 16px;
 }
 
+/* Media queries */
 @media (max-width: 1024px){
     .container{
         max-width: 700px;

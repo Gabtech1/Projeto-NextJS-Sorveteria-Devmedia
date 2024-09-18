@@ -5,6 +5,7 @@ import styles from './flavours.module.css';
 
 
 export default function Flavours() {
+    /* Drop letters animation */
     useEffect(() => {
         const letters = document.querySelectorAll('h1 span');
         letters.forEach((letter, index) => {

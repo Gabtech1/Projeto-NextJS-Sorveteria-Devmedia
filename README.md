@@ -1,7 +1,7 @@
-<h1 align="center"> Sorveteria Devmedia </h1>
+<h1 align="center"> Sorveteria Nextjs </h1>
 
 <p align="center">
-Desenvolvido através de um projeto base durante o curso da Devmedia, implementado algumas alterações. <br/>
+Desenvolvido através de um projeto base durante o curso da Devmedia, implementei algumas alterações e animações. <br/>
 </p>
 
 <p align="center">

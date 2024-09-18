@@ -4,6 +4,7 @@ import styles from './about.module.css';
 import Description from '@/components/Description';
 
 export default function About() {
+    /* Drop letters animation */
     useEffect(() => {
         const letters = document.querySelectorAll('h1 span');
         letters.forEach((letter, index) => {

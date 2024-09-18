@@ -21,7 +21,8 @@
   .letter{
     animation: drop-letters 5s infinite;
   }
-
+  
+/* Letters animation */
   @keyframes drop-letters {
     0% {
       transform: translateY(0);
@@ -40,6 +41,7 @@
     }
   }
   
+  /* Media queries */
   @media (max-width: 1024px){
     .container h1{
       font-size: 4rem;

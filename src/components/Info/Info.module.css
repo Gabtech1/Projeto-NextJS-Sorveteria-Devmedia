@@ -34,6 +34,7 @@
     font-size: 20px;
 }
 
+/* Media queries */
 @media (max-width: 1024px){
     .itemText{
         padding: 80px 30px;
